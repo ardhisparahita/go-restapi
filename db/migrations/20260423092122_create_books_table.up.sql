@@ -1,0 +1,5 @@
+CREATE TABLE books (
+    id VARCHAR(36) NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    author VARCHAR(100)
+) ENGINE = InnoDB;
